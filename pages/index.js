@@ -9,7 +9,7 @@ function Home() {
 function Counter() {
     const [counter, setCounter] = useState();
     function addCounter() {
-        setCounter(counter +1);
+        setCounter(counter + 1);
     }
     return(
         <div>
