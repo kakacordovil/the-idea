@@ -12,8 +12,11 @@ function Counter() {
         setCounter(counter +1);
     }
     return(
-        <div>{counter}</div>
-        <button onClick={addCounter}>Add</button>
+        <div>
+            <div>{counter}</div>
+            <button onClick={addCounter}>Add</button>
+        </div>
+        
     )
 }
 
